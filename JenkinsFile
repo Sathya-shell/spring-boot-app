@@ -2,7 +2,7 @@
 pipeline {
     agent {
       any {
-        mvn clean package
+        'mvn clean package'
        }
     }
     stages {
