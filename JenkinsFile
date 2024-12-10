@@ -1,9 +1,9 @@
 pipeline {
-    agent{
-          any{
-               mvn clean install
-          }
+    agent {
+      any {
+        mvn install
        }
+    }
     stages {
         stage('Checkout') {
             steps {
