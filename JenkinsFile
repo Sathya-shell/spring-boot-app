@@ -1,5 +1,3 @@
-#Jenkins CI Process
-Write-Host "Jenkins CI Process"
 pipeline {
     agent {
       docker {
