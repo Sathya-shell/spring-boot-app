@@ -1,7 +1,8 @@
+
 pipeline {
     agent {
       any {
-        mvn install
+        mvn clean package
        }
     }
     stages {
