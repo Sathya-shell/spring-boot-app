@@ -60,7 +60,14 @@ pipeline {
                     withDockerRegistry(credentialsId: 'docker') {
                         sh "docker tag zomato kastrov/zomato:latest "
                         sh "docker push kastrov/zomato:latest "
-                    }
-                }
-            }
 }
+}
+}
+}
+
+                    
+
+
+                
+            
+
