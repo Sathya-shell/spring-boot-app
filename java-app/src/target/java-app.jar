@@ -1,0 +1,2 @@
+javac -d target src/Main.java
+jar -cvfe target/java-app.jar Main -C target .
